@@ -1,15 +1,12 @@
 # corebird
-Native Twitter client, built with Gtk3. You need 3 packages from kcp:
+Native Twitter client, built with Gtk3. You need 2 packages from kcp:
 
 1-rest
 ```
 kcp -di rest
 ```
-2- midna-gtk-icon-theme (set as default icon theme under the gtk applications appereance settings )
-```
-kcp -i midna-gtk-icon-theme
-```
-3-libgstgtkskin (for video support):
+2-libgstgtkskin (for video support):
 ```
 kcp -di libgstgtkskin
 ```
+**For better look-and-feel you need to enable the Breeze icon theme on the GTK application settings, in both primary and backend mode.**
