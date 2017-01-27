@@ -1,5 +1,5 @@
 pkgname=corebird
-pkgver=1.4.1
+pkgver=1.4.2
 pkgrel=1
 pkgdesc="Native Twitter client, built with Gtk3"
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=('gtk3' 'glib2' 'rest' 'sqlite' 'libtool' 'libsoup' 'json-glib' 'intltoo
            'gst-libav' 'gst-plugins-base' 'libgstgtkskin' 'gst-plugins-good' 'breeze-icons')
 makedepends=('vala' 'automake')
 source=("https://github.com/baedert/corebird/archive/${pkgver}.tar.gz")
-sha1sums=("3ca1bd4400165f82fd305eb8fc486ad7542c49a2")
+sha1sums=("6b84efb04cf565aecf38464bf1b8865d88fb0d8a")
 
 build() {
  
